@@ -1,0 +1,37 @@
+[
+  {
+    "id": "tc1",
+    "description": "Normal case: single keyword",
+    "input": {"query": "red"},
+    "expected": {"must_contain_ids": ["p1"]},
+    "criteria": "Project A returns p1; Project B returns p1 with higher score"
+  },
+  {
+    "id": "tc2",
+    "description": "Complex multi-keyword query",
+    "input": {"query": "running shoes"},
+    "expected": {"must_contain_ids": ["p3"]},
+    "criteria": "both projects return p3; Project B scores it higher"
+  },
+  {
+    "id": "tc3",
+    "description": "Typo / fuzzy match",
+    "input": {"query": "runing shos"},
+    "expected": {"must_contain_ids": ["p3"]},
+    "criteria": "Project A may fail; Project B should match via fuzzy logic"
+  },
+  {
+    "id": "tc4",
+    "description": "Invalid input (non-string)",
+    "input": {"query": 123},
+    "expected": {"error": "TypeError"},
+    "criteria": "Both projects should handle/raise error gracefully"
+  },
+  {
+    "id": "tc5",
+    "description": "Empty query",
+    "input": {"query": ""},
+    "expected": {"results": []},
+    "criteria": "Both projects return empty results"
+  }
+]

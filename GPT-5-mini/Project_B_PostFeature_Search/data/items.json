@@ -1,0 +1,9 @@
+[
+  {"id": "p1", "name": "Red T-Shirt", "description": "Comfortable red cotton t-shirt", "tags": ["apparel", "shirt", "red"]},
+  {"id": "p2", "name": "Blue Jeans", "description": "Denim blue jeans with classic fit", "tags": ["apparel", "jeans", "blue"]},
+  {"id": "p3", "name": "Running Shoes", "description": "Lightweight running shoes for athletes", "tags": ["shoes", "running", "sports"]},
+  {"id": "p4", "name": "Coffee Mug", "description": "Ceramic mug for coffee and tea", "tags": ["kitchen", "mug", "coffee"]},
+  {"id": "p5", "name": "Wireless Mouse", "description": "Ergonomic wireless mouse", "tags": ["electronics", "mouse", "wireless"]},
+  {"id": "p6", "name": "Black T-Shirt", "description": "Classic black tee in cotton", "tags": ["apparel", "shirt", "black"]},
+  {"id": "p7", "name": "Sports Socks", "description": "Breathable socks for running and sports", "tags": ["apparel", "socks", "sports"]}
+]
