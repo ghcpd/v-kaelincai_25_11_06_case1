@@ -1,0 +1,7 @@
+[
+  {"test_id":"t1","query":"running shoes","expected":["p1"],"description":"Normal case: exact keyword match","type":"normal"},
+  {"test_id":"t2","query":"runnng shoes","expected":["p1"],"description":"Typo case: misspelled query","type":"typo"},
+  {"test_id":"t3","query":"","expected":[],"description":"Invalid: empty query","type":"invalid"},
+  {"test_id":"t4","query":"chef knife stainless","expected":["p10"],"description":"Multi-keyword complex query","type":"complex"},
+  {"test_id":"t5","query":12345,"expected":[],"description":"Invalid: non-string input","type":"invalid"}
+]
