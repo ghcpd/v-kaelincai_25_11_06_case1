@@ -1,0 +1,12 @@
+[
+  {"id":"p1","name":"Smartphone XL","description":"6.5 inch display, 128GB storage, great camera","category":"electronics","price":699.99,"tags":["phone","smartphone","camera"],"related":["p2","p3"]},
+  {"id":"p2","name":"Portable Bluetooth Speaker","description":"Wireless Bluetooth speaker with deep bass","category":"electronics","price":49.99,"tags":["speaker","bluetooth","audio"],"related":["p3"]},
+  {"id":"p3","name":"Wireless Headphones","description":"Noise-cancelling over-ear headphones, wireless","category":"electronics","price":199.99,"tags":["headphones","wireless","audio"],"related":["p2"]},
+  {"id":"p4","name":"Running Shoes","description":"Lightweight running shoes for everyday workouts","category":"clothing","price":89.99,"tags":["shoes","fitness","running"],"related":["p6"]},
+  {"id":"p5","name":"Laptop Sleeve 13 inch","description":"Protective sleeve for 13-inch laptops, water-resistant","category":"accessories","price":25.99,"tags":["laptop","sleeve","computer"],"related":["p1"]},
+  {"id":"p6","name":"Fitness T-Shirt","description":"Breathable fabric for workouts, unisex","category":"clothing","price":19.99,"tags":["shirt","fitness","running"],"related":["p4"]},
+  {"id":"p7","name":"Cookbook: Quick Meals","description":"Easy recipes for weeknight dinners","category":"books","price":14.99,"tags":["cooking","recipes","meal"],"related":["p9"]},
+  {"id":"p8","name":"Smart Home Hub","description":"Control lights, speakers and devices with a single hub","category":"electronics","price":129.99,"tags":["smart","home","hub"],"related":["p1","p2"]},
+  {"id":"p9","name":"Kitchen Knife Set","description":"8-piece stainless steel knife set for all your prep needs","category":"home","price":79.99,"tags":["kitchen","knife","cookware"],"related":["p10"]},
+  {"id":"p10","name":"Cutting Board","description":"Bamboo cutting board set, surface-friendly","category":"home","price":19.99,"tags":["kitchen","board","cookware"],"related":["p9"]}
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tc1",
+    "query": "wireless headphones",
+    "expected_pre_ids": ["p3"],
+    "expected_post_ids": ["p3"],
+    "notes": "Normal case: exact keyword present"
+  },
+  {
+    "id": "tc2",
+    "query": "bluetooth speaker",
+    "expected_pre_ids": ["p2"],
+    "expected_post_ids": ["p2", "p8"],
+    "notes": "Partial/related results expected from PostFeature (nearby category)"
+  },
+  {
+    "id": "tc3",
+    "query": "laptpp sleeve",
+    "expected_pre_ids": [],
+    "expected_post_ids": ["p5"],
+    "notes": "Edge case with a typo; Project B should fuzzy-match to laptop sleeve p5"
+  },
+  {
+    "id": "tc4",
+    "query": "kitchen knife set",
+    "expected_pre_ids": ["p9"],
+    "expected_post_ids": ["p9", "p10"],
+    "notes": "Complex query: multi-word phrase requires multi-criteria matching"
+  },
+  {
+    "id": "tc5",
+    "query": "",
+    "expected_pre_ids": [],
+    "expected_post_ids": [],
+    "notes": "Invalid / empty query — both systems return no results"
+  },
+  {
+    "id": "tc6",
+    "query": 12345,
+    "expected_pre_ids": [],
+    "expected_post_ids": [],
+    "notes": "Non-string input — both must handle gracefully"
+  }
+]
