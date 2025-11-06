@@ -1,0 +1,6 @@
+[
+  {"id":"B1","q":"red t-shirt","ok":true,"latency":0.015,"ids":[1],"suggestions":["Red T-Shirt"],"recommendations":[2]},
+  {"id":"B2","q":"wirless mouse","ok":true,"latency":0.018,"ids":[3],"suggestions":["Wireless Mouse"],"recommendations":[4]},
+  {"id":"B3","q":"gaming","ok":true,"latency":0.013,"ids":[4],"suggestions":["Gaming Keyboard"],"recommendations":[3]},
+  {"id":"B4","q":"mug","ok":true,"latency":0.007,"ids":[5],"suggestions":["Coffee Mug"],"recommendations":[]}
+]

@@ -1,0 +1,6 @@
+[
+  {"id":"A1","q":"red t-shirt","ok":true,"latency":0.012,"ids":[1]},
+  {"id":"A2","q":"wireless mouse","ok":true,"latency":0.010,"ids":[3]},
+  {"id":"A3","q":"jeans","ok":true,"latency":0.008,"ids":[2]},
+  {"id":"A4","q":"","ok":true,"latency":0.005,"ids":[]}
+]

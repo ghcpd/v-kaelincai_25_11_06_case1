@@ -1,0 +1,5 @@
+[
+  {"id":"A-T1","q":"red t-shirt","expect":[1]},
+  {"id":"A-T2","q":"wireless mouse","expect":[3]},
+  {"id":"A-T3","q":"","expect":[]}
+]

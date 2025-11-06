@@ -1,0 +1,7 @@
+[
+  {"id":"T1","query":"red t-shirt","type":"normal","expect":[1],"description":"Exact match"},
+  {"id":"T2","query":"wirless mouse","type":"edge","expect":[3],"description":"Typo should match wireless"},
+  {"id":"T3","query":"","type":"invalid","expect":[],"description":"Empty query should return no results"},
+  {"id":"T4","query":"gaming keyboard","type":"normal","expect":[4],"description":"Partial name match"},
+  {"id":"T5","query":"coffee","type":"complex","expect":[5],"description":"Keyword in description"}
+]
