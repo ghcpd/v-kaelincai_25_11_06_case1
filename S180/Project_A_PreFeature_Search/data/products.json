@@ -1,0 +1,7 @@
+[
+  {"id":1, "name":"Red T-Shirt", "description":"Comfortable red cotton t-shirt", "category":"clothing"},
+  {"id":2, "name":"Blue Jeans", "description":"Stylish blue denim jeans", "category":"clothing"},
+  {"id":3, "name":"Wireless Mouse", "description":"Ergonomic wireless mouse for laptops", "category":"electronics"},
+  {"id":4, "name":"Gaming Keyboard", "description":"Mechanical RGB keyboard for gaming", "category":"electronics"},
+  {"id":5, "name":"Coffee Mug", "description":"Ceramic coffee mug with handle", "category":"kitchen"}
+]
