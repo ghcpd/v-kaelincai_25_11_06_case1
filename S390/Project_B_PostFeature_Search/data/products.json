@@ -1,0 +1,12 @@
+[
+  {"id": "p1", "name": "Ultralight Running Shoes", "description": "Breathable running shoes with excellent cushioning.", "category": "shoes", "tags": ["running","sport","footwear"]},
+  {"id": "p2", "name": "Trail Hiking Boots", "description": "Durable hiking boots for uneven terrain.", "category": "shoes", "tags": ["hiking","outdoor","boots"]},
+  {"id": "p3", "name": "Performance Tennis Racket", "description": "Lightweight racket for competitive players.", "category": "sports", "tags": ["tennis","racket","sport"]},
+  {"id": "p4", "name": "Waterproof Jacket", "description": "Keeps you dry in heavy rain; windproof shell.", "category": "apparel", "tags": ["jacket","outdoor","rain"]},
+  {"id": "p5", "name": "Wireless Earbuds", "description": "Noise-cancelling earbuds with long battery life.", "category": "electronics", "tags": ["audio","earbuds","wireless"]},
+  {"id": "p6", "name": "Smart Fitness Watch", "description": "Tracks steps, heart rate, and sleep patterns.", "category": "electronics", "tags": ["wearable","fitness","watch"]},
+  {"id": "p7", "name": "Yoga Mat", "description": "Non-slip yoga mat for home and gym.", "category": "fitness", "tags": ["yoga","mat","exercise"]},
+  {"id": "p8", "name": "Road Cycling Helmet", "description": "Aerodynamic helmet for road cyclists.", "category": "cycling", "tags": ["helmet","cycling","safety"]},
+  {"id": "p9", "name": "Electric Kettle", "description": "Quick-boil electric kettle with auto shutoff.", "category": "kitchen", "tags": ["kitchen","appliance","kettle"]},
+  {"id": "p10", "name": "Chef Knife", "description": "Professional stainless steel chef knife.", "category": "kitchen", "tags": ["knife","kitchen","cookware"]}
+]

@@ -1,0 +1,6 @@
+Project A - Basic Search Results (sample)
+
+Search: 'running shoes'
+Results:
+- Ultralight Running Shoes (score=1.0)
+Response time: 15 ms

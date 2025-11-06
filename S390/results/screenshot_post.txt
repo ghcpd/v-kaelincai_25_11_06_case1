@@ -1,0 +1,9 @@
+Project B - Enhanced Search Results (sample)
+
+Search: 'runnng shoes' (typo)
+Results:
+- Ultralight Running Shoes (score=0.87)
+Recommendations:
+- Trail Hiking Boots
+- Road Cycling Helmet
+Response time: 12 ms
