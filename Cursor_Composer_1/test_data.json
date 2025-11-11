@@ -1,0 +1,208 @@
+[
+  {
+    "test_id": "TC001",
+    "description": "Normal case: Valid single keyword search",
+    "input_query": "headphones",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["1"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should return at least one result containing product ID '1' (Wireless Bluetooth Headphones)"
+  },
+  {
+    "test_id": "TC002",
+    "description": "Normal case: Valid multi-keyword search",
+    "input_query": "wireless mouse",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["6"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should return at least one result containing product ID '6' (Wireless Mouse)"
+  },
+  {
+    "test_id": "TC003",
+    "description": "Edge case: Typo in query (fuzzy matching test)",
+    "input_query": "hedphones",
+    "expected_results": {
+      "min_results": 0,
+      "max_results": 15,
+      "should_have_suggestions": true,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should handle typo gracefully - may return 0 results in Project A, but Project B should provide suggestions"
+  },
+  {
+    "test_id": "TC004",
+    "description": "Edge case: Ambiguous query",
+    "input_query": "stand",
+    "expected_results": {
+      "min_results": 2,
+      "max_results": 15,
+      "must_contain_ids": ["3", "7", "11"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should return multiple results (Laptop Stand, Monitor Stand, Tablet Stand)"
+  },
+  {
+    "test_id": "TC005",
+    "description": "Edge case: Category-based search",
+    "input_query": "electronics",
+    "expected_results": {
+      "min_results": 5,
+      "max_results": 15,
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should return multiple electronics products"
+  },
+  {
+    "test_id": "TC006",
+    "description": "Edge case: Partial word match",
+    "input_query": "charg",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["4", "12"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should match products containing 'charge' or 'charger'"
+  },
+  {
+    "test_id": "TC007",
+    "description": "Invalid case: Empty query",
+    "input_query": "",
+    "expected_results": {
+      "min_results": 0,
+      "max_results": 0,
+      "should_error": true,
+      "should_have_suggestions": false,
+      "should_have_recommendations": false
+    },
+    "pass_criteria": "Should return error for empty query"
+  },
+  {
+    "test_id": "TC008",
+    "description": "Invalid case: Non-string input (simulated)",
+    "input_query": null,
+    "expected_results": {
+      "min_results": 0,
+      "max_results": 0,
+      "should_error": true,
+      "should_have_suggestions": false,
+      "should_have_recommendations": false
+    },
+    "pass_criteria": "Should handle non-string input gracefully with error"
+  },
+  {
+    "test_id": "TC009",
+    "description": "Complex case: Multi-criteria search",
+    "input_query": "wireless bluetooth audio",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["1"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should return relevant products matching multiple keywords"
+  },
+  {
+    "test_id": "TC010",
+    "description": "Complex case: Brand name search",
+    "input_query": "ErgoDesk",
+    "expected_results": {
+      "min_results": 3,
+      "max_results": 15,
+      "must_contain_ids": ["3", "7", "11"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should return all products from ErgoDesk brand"
+  },
+  {
+    "test_id": "TC011",
+    "description": "Edge case: Query with special characters",
+    "input_query": "USB-C cable",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["4"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should handle special characters in query"
+  },
+  {
+    "test_id": "TC012",
+    "description": "Edge case: Very long query",
+    "input_query": "wireless bluetooth headphones with noise cancellation and long battery life",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["1"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should handle long descriptive queries"
+  },
+  {
+    "test_id": "TC013",
+    "description": "Edge case: Query with no matches",
+    "input_query": "xyzabc123nonexistent",
+    "expected_results": {
+      "min_results": 0,
+      "max_results": 0,
+      "should_have_suggestions": true,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should return empty results without error, Project B should provide suggestions"
+  },
+  {
+    "test_id": "TC014",
+    "description": "Normal case: Case-insensitive search",
+    "input_query": "KEYBOARD",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["5"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should handle uppercase queries case-insensitively"
+  },
+  {
+    "test_id": "TC015",
+    "description": "Complex case: Mixed case and partial match",
+    "input_query": "Gam",
+    "expected_results": {
+      "min_results": 1,
+      "max_results": 15,
+      "must_contain_ids": ["5", "13"],
+      "should_have_suggestions": false,
+      "should_have_recommendations": false,
+      "should_error": false
+    },
+    "pass_criteria": "Should match products with 'game' or 'gaming' in name/tags"
+  }
+]
+

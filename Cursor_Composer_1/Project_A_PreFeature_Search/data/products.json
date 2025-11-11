@@ -1,0 +1,138 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Bluetooth Headphones",
+    "description": "High-quality wireless headphones with noise cancellation and 30-hour battery life",
+    "category": "Electronics",
+    "price": 99.99,
+    "brand": "AudioTech",
+    "tags": ["wireless", "bluetooth", "headphones", "audio"]
+  },
+  {
+    "id": "2",
+    "name": "Smartphone Case",
+    "description": "Protective case for smartphones with shock absorption and screen protection",
+    "category": "Accessories",
+    "price": 24.99,
+    "brand": "ProtectPro",
+    "tags": ["case", "protection", "smartphone", "accessory"]
+  },
+  {
+    "id": "3",
+    "name": "Laptop Stand",
+    "description": "Adjustable aluminum laptop stand for ergonomic workspace setup",
+    "category": "Accessories",
+    "price": 49.99,
+    "brand": "ErgoDesk",
+    "tags": ["laptop", "stand", "ergonomic", "workspace"]
+  },
+  {
+    "id": "4",
+    "name": "USB-C Charging Cable",
+    "description": "Fast charging USB-C cable compatible with modern devices",
+    "category": "Accessories",
+    "price": 14.99,
+    "brand": "ChargeFast",
+    "tags": ["cable", "usb-c", "charging", "cable"]
+  },
+  {
+    "id": "5",
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with Cherry MX switches",
+    "category": "Electronics",
+    "price": 129.99,
+    "brand": "KeyMaster",
+    "tags": ["keyboard", "mechanical", "rgb", "gaming"]
+  },
+  {
+    "id": "6",
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with precision tracking and long battery life",
+    "category": "Electronics",
+    "price": 39.99,
+    "brand": "PointTech",
+    "tags": ["mouse", "wireless", "ergonomic", "tracking"]
+  },
+  {
+    "id": "7",
+    "name": "Monitor Stand",
+    "description": "Dual monitor stand with height adjustment and cable management",
+    "category": "Accessories",
+    "price": 79.99,
+    "brand": "ErgoDesk",
+    "tags": ["monitor", "stand", "dual", "adjustable"]
+  },
+  {
+    "id": "8",
+    "name": "Webcam HD",
+    "description": "1080p HD webcam with auto-focus and built-in microphone",
+    "category": "Electronics",
+    "price": 69.99,
+    "brand": "VideoTech",
+    "tags": ["webcam", "hd", "video", "conference"]
+  },
+  {
+    "id": "9",
+    "name": "Desk Lamp",
+    "description": "LED desk lamp with adjustable brightness and color temperature",
+    "category": "Accessories",
+    "price": 34.99,
+    "brand": "LightPro",
+    "tags": ["lamp", "led", "desk", "lighting"]
+  },
+  {
+    "id": "10",
+    "name": "External Hard Drive",
+    "description": "1TB portable external hard drive with USB 3.0 connectivity",
+    "category": "Electronics",
+    "price": 59.99,
+    "brand": "StorageTech",
+    "tags": ["hard drive", "storage", "external", "usb"]
+  },
+  {
+    "id": "11",
+    "name": "Tablet Stand",
+    "description": "Adjustable stand for tablets and e-readers with multiple viewing angles",
+    "category": "Accessories",
+    "price": 19.99,
+    "brand": "ErgoDesk",
+    "tags": ["tablet", "stand", "adjustable", "viewing"]
+  },
+  {
+    "id": "12",
+    "name": "Wireless Charger",
+    "description": "Qi-compatible wireless charging pad for smartphones",
+    "category": "Accessories",
+    "price": 29.99,
+    "brand": "ChargeFast",
+    "tags": ["wireless", "charger", "qi", "charging"]
+  },
+  {
+    "id": "13",
+    "name": "Gaming Headset",
+    "description": "Surround sound gaming headset with noise-canceling microphone",
+    "category": "Electronics",
+    "price": 89.99,
+    "brand": "GameAudio",
+    "tags": ["headset", "gaming", "surround sound", "microphone"]
+  },
+  {
+    "id": "14",
+    "name": "USB Hub",
+    "description": "7-port USB 3.0 hub with individual power switches",
+    "category": "Accessories",
+    "price": 24.99,
+    "brand": "ConnectTech",
+    "tags": ["usb", "hub", "ports", "connectivity"]
+  },
+  {
+    "id": "15",
+    "name": "Laptop Cooling Pad",
+    "description": "USB-powered laptop cooling pad with adjustable fan speeds",
+    "category": "Accessories",
+    "price": 27.99,
+    "brand": "CoolTech",
+    "tags": ["cooling", "laptop", "fan", "temperature"]
+  }
+]
+
