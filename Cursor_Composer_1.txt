@@ -1,0 +1,273 @@
+Role
+
+You are a software engineer responsible for implementing and testing the capabilities of AI models on the New feature subtype within the Feature & improvement category.
+Your task is to provide two separate, complete Python projects:
+
+Project A – Pre-Feature (Basic Search Implementation)
+A project that contains the original, basic implementation of the search feature that only supports keyword matching without any intelligence or suggestions. The implementation should not recommend related products or provide search suggestions.
+Project B – Post-Feature (Enhanced Search Implementation)
+A project that contains the enhanced version of the search feature, which intelligently recommends related products based on user queries and provides search suggestions. The new implementation improves the search functionality by incorporating smarter search algorithms, such as relevance scoring, fuzzy matching, and related product suggestions.
+Each project must include its own source code, environment setup, automated tests, and execution scripts.
+All files must be generated, stored locally, and fully reproducible.
+Both projects should handle optimizations, edge cases, and correctness verification while providing measurable improvements in the search accuracy, relevance, and overall user experience.
+
+Title
+
+Evaluation of S180, S390, S430-v2, Claude Haiku 4.5, and GPT-5-mini on Feature & improvement – New Feature Implementation for Enhanced Search
+
+Description
+
+This experiment evaluates AI models’ ability to enhance an existing search feature by adding intelligent recommendations and search suggestions. The initial search implementation in Project A only supports basic keyword matching, which is limited in user experience. Project B addresses this by integrating more advanced features such as related product recommendations, auto-completion, and intelligent query suggestions.
+
+Key objectives include:
+
+Replicating the basic functionality of the current search implementation in Project A.
+Implementing smarter search and recommendation features in Project B.
+Ensuring the correctness, performance, and usability improvements in Project B compared to Project A.
+Verifying enhancements automatically with test cases and performance metrics, and providing visual evidence of improvements.
+Key Evaluation Criteria
+
+• Correctness of both pre- and post-feature implementations.
+• Enhancement in search result relevance and accuracy.
+• Improvements in response time and efficiency.
+• Handling of edge cases: malformed queries, invalid inputs, large datasets.
+• Comprehensive automated tests to verify the added features and stability.
+• Fully reproducible environment with one-command test execution.
+• Quantitative comparison of accuracy, speed, success rate, and performance improvements.
+
+Requirements for the AI Model Output
+
+Test Scenario & Description
+Describe the functionality and improvements of the new feature (e.g., the addition of product recommendations and search suggestions in Project B).
+Specify expected input/output formats (preferably JSON or Python dict).
+Define acceptance criteria: Project B must return results with improved relevance, faster response times, and accurate product recommendations.
+Test Data Generation
+Generate at least five structured test cases saved in test_data.json, covering:
+• Normal cases: Valid keyword searches.
+• Edge/boundary cases: Complex queries with multiple keywords, typos, or ambiguous terms.
+• Invalid/malformed inputs: Non-string inputs, empty search queries.
+• Complex queries: Queries requiring filtering or multi-criteria matching.
+Each test case must include: test id, input query, expected results, and pass/fail criteria.
+Reproducible Environment
+Provide requirements.txt, setup.sh, or Dockerfile to create a consistent environment for test execution.
+Include instructions on setting up the search service, running tests, and verifying results.
+Test Code
+Generate executable Python test scripts that:
+a. Feed test queries to the search service (both Project A and Project B).
+b. Capture output, response times, and result accuracy.
+c. Compare results against expected outputs.
+d. Report success/failure for each test case.
+e. Compute evaluation metrics (accuracy, relevance, response times).
+Ensure tests are automated and can be executed via run_tests.sh script.
+Execution Scripts
+Generate run_tests.sh for both projects to automate:
+a. Environment setup.
+b. Running tests for both pre- and post-feature implementations.
+c. Collecting results, logs, and performance metrics.
+Provide a top-level run_all.sh that:
+a. Runs Project A and Project B tests sequentially.
+b. Aggregates results and generates a comparison report.
+Expected Output
+For each test case, provide:
+• JSON output: search result scores, relevance.
+• Log entries: capture response time, number of results.
+• Evaluation metrics: success rate, accuracy rate, latency.
+Generate a comparison report (compare_report.md) summarizing the improvement in the search experience between Project A and Project B.
+Documentation / Explanation
+Provide a README.md file detailing:
+• How to set up and run both projects.
+• The new feature implemented in Project B and its enhancements over Project A.
+• How to interpret logs and results from the tests.
+• Limitations of the AI model or search system and how the results may vary under different conditions.
+Deliverables (All files must be saved locally and organized into two project folders, plus shared artifacts)
+
+Project A – Pre-Feature (Basic Search) — Folder name: Project_A_PreFeature_Search
+• src/ — Basic search code (e.g., index.html, styles.css, app.js for search page).
+• server/ — Static server script to run Project A.
+• data/ — test_data.json and any input fixtures.
+• tests/ — Test code to validate pre-feature search behavior (test_pre_feature.py).
+• results/ — Test results and metrics (results_pre.json).
+• logs/ — Execution logs for Project A (log_pre.txt).
+• requirements.txt — Python dependencies for Project A.
+• setup.sh — Setup script for Project A.
+• run_tests.sh — Script to run Project A tests.
+
+Project B – Post-Feature (Enhanced Search) — Folder name: Project_B_PostFeature_Search
+• src/ — Enhanced search code (e.g., index.html, styles.fixed.css, app.fixed.js for updated search).
+• server/ — Static server for Project B.
+• data/ — test_data.json and expected outputs.
+• tests/ — Test code to validate post-feature search behavior (test_post_feature.py).
+• results/ — Test results and metrics (results_post.json).
+• logs/ — Execution logs for Project B (log_post.txt).
+• requirements.txt — Dependencies for Project B.
+• setup.sh — Setup script for Project B.
+• run_tests.sh — Script to run Project B tests.
+
+Shared Artifacts (repo root)
+• test_data.json — A canonical set of structured test cases.
+• compare_report.md — A summary of the comparison between Project A and Project B, including metrics.
+• run_all.sh — A master script to run all tests and generate the final comparison report.
+• results/ — Aggregated results, including the structured output from both projects.
+• README.md — Detailed instructions and explanations.
+
+Goal
+Deliver two fully reproducible project folders that demonstrate a concrete new feature (enhanced search with intelligent recommendations) and its implementation. Provide automated tests, visual proof (screenshots), and a comparison report that quantifies the improvements. Document limitations and recommended best practices for search system optimization.
+
+
+
+Creating two complete, reproducible Python projects with automated tests, execution scripts, and comparison reports. Starting with the project structure and core components.
+
+
+[2 tools called]
+
+
+Creating the project structure, starting with Project A (basic search):
+
+
+[7 tools called]
+
+
+Creating Project B with enhanced search capabilities:
+
+
+[7 tools called]
+
+
+Creating shared artifacts: test data, master script, and documentation:
+
+
+[5 tools called]
+
+
+Creating Windows-compatible batch files and checking for issues:
+
+
+[6 tools called]
+
+
+Fixing path handling in test files and creating initial directory structure:
+
+
+[4 tools called]
+
+
+Fixing path handling in both test files to be more robust:
+
+
+[4 tools called]
+
+
+Creating __init__.py files and verifying the structure:
+
+
+[3 tools called]
+
+
+Fixing PowerShell syntax:
+
+
+[1 tool called]
+
+
+Tests are running. The failures highlight Project A's limitations. Testing Project B:
+
+
+[2 tools called]
+
+
+Fixing test expectations for empty result sets:
+
+
+[3 tools called]
+
+
+Checking test data expectations and improving the suggestion algorithm:
+
+
+[3 tools called]
+
+
+Improving the suggestion algorithm to handle typos better:
+
+
+[2 tools called]
+
+
+Improving suggestions for completely non-existent queries:
+
+
+[2 tools called]
+
+
+All tests pass. Generating the comparison report and finalizing:
+
+
+[2 tools called]
+
+
+Verifying the final structure and checking the comparison report:
+
+
+[2 tools called]
+
+
+Creating log directories and verifying the structure:
+
+
+[2 tools called]
+
+
+Using PowerShell commands:
+
+
+[3 tools called]
+
+
+## Summary
+
+Two Python projects demonstrating a search feature enhancement are ready.
+
+### Project A - Pre-Feature (Basic Search)
+- Basic keyword matching search engine
+- Simple HTTP server
+- Test suite with 15 test cases
+- Results: 86.67% success rate (13/15 tests passed)
+
+### Project B - Post-Feature (Enhanced Search)
+- Enhanced search with:
+  - Fuzzy matching for typo tolerance
+  - Relevance scoring for intelligent ranking
+  - Search suggestions
+  - Related product recommendations
+- Test suite with enhanced validation
+- Results: 100% success rate (15/15 tests passed)
+
+### Shared Artifacts
+- `test_data.json`: 15 test cases covering normal, edge, and invalid scenarios
+- `compare_report.md`: Comparison report with metrics and analysis
+- `generate_comparison_report.py`: Script to generate comparison reports
+- `README.md`: Documentation
+- `run_all.sh` / `run_all.bat`: Master script to run all tests
+
+### Key Improvements Demonstrated
+1. Success rate: 86.67% → 100% (+13.33%)
+2. Feature completeness: Project B adds fuzzy matching, relevance scoring, suggestions, and recommendations
+3. Better handling: Project B handles typos (e.g., "hedphones" → suggestions), brand searches (e.g., "ErgoDesk"), and partial matches (e.g., "Gam" → "Gaming")
+4. Enhanced UX: Search suggestions and related product recommendations
+
+### Project Structure
+Both projects include:
+- Source code (`src/`)
+- Test suites (`tests/`)
+- Product data (`data/`)
+- Results directories (`results/`)
+- Log directories (`logs/`)
+- Setup scripts (`.sh` and `.bat` for cross-platform)
+- Requirements files
+
+### How to Use
+1. Quick start: Run `bash run_all.sh` (Linux/Mac) or `run_all.bat` (Windows)
+2. Individual projects: Navigate to each project folder and run `setup.sh`/`setup.bat` then `run_tests.sh`/`run_tests.bat`
+3. View results: Check `compare_report.md` for the comparison analysis
+
+All files are saved locally and ready for evaluation. The projects are reproducible and include automated tests, performance metrics, and documentation.

@@ -1,0 +1,216 @@
+{
+  "total_tests": 15,
+  "passed_tests": 13,
+  "failed_tests": 2,
+  "success_rate": 86.67,
+  "average_response_time_ms": 0.01,
+  "test_results": [
+    {
+      "test_id": "TC001",
+      "query": "headphones",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 1,
+      "response_time_ms": 0.05,
+      "actual_execution_time_ms": 0.36,
+      "result_ids": [
+        "1"
+      ],
+      "timestamp": "2025-11-11T10:32:55.714998"
+    },
+    {
+      "test_id": "TC002",
+      "query": "wireless mouse",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 3,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.02,
+      "result_ids": [
+        "1",
+        "6",
+        "12"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715029"
+    },
+    {
+      "test_id": "TC003",
+      "query": "hedphones",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 0,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [],
+      "timestamp": "2025-11-11T10:32:55.715043"
+    },
+    {
+      "test_id": "TC004",
+      "query": "stand",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 3,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [
+        "3",
+        "7",
+        "11"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715057"
+    },
+    {
+      "test_id": "TC005",
+      "query": "electronics",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 6,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [
+        "1",
+        "5",
+        "6",
+        "8",
+        "10",
+        "13"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715071"
+    },
+    {
+      "test_id": "TC006",
+      "query": "charg",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 2,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [
+        "4",
+        "12"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715083"
+    },
+    {
+      "test_id": "TC007",
+      "query": "",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 0,
+      "response_time_ms": 0,
+      "actual_execution_time_ms": 0.0,
+      "result_ids": [],
+      "timestamp": "2025-11-11T10:32:55.715090"
+    },
+    {
+      "test_id": "TC008",
+      "query": null,
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 0,
+      "response_time_ms": 0,
+      "actual_execution_time_ms": 0.0,
+      "result_ids": [],
+      "timestamp": "2025-11-11T10:32:55.715095"
+    },
+    {
+      "test_id": "TC009",
+      "query": "wireless bluetooth audio",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 3,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.02,
+      "result_ids": [
+        "1",
+        "6",
+        "12"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715116"
+    },
+    {
+      "test_id": "TC010",
+      "query": "ErgoDesk",
+      "passed": false,
+      "failure_reason": "Missing expected product IDs: ['3', '7', '11']",
+      "total_results": 0,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [],
+      "timestamp": "2025-11-11T10:32:55.715145"
+    },
+    {
+      "test_id": "TC011",
+      "query": "USB-C cable",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 2,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [
+        "4",
+        "7"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715160"
+    },
+    {
+      "test_id": "TC012",
+      "query": "wireless bluetooth headphones with noise cancellation and long battery life",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 15,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715179"
+    },
+    {
+      "test_id": "TC013",
+      "query": "xyzabc123nonexistent",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 0,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [],
+      "timestamp": "2025-11-11T10:32:55.715189"
+    },
+    {
+      "test_id": "TC014",
+      "query": "KEYBOARD",
+      "passed": true,
+      "failure_reason": null,
+      "total_results": 1,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [
+        "5"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715200"
+    },
+    {
+      "test_id": "TC015",
+      "query": "Gam",
+      "passed": false,
+      "failure_reason": "Missing expected product IDs: ['5']",
+      "total_results": 1,
+      "response_time_ms": 0.01,
+      "actual_execution_time_ms": 0.01,
+      "result_ids": [
+        "13"
+      ],
+      "timestamp": "2025-11-11T10:32:55.715211"
+    }
+  ]
+}
