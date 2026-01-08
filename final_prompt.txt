@@ -1,0 +1,9 @@
+Role
+You are a software engineer responsible for implementing and testing the capabilities of AI models on the New feature subtype within the Feature & improvement category.
+Your task is to provide two separate, complete Python projects:
+1.	Project A – Pre-Feature (Basic Search Implementation)
+A project that contains the original, basic implementation of the search feature that only supports keyword matching without any intelligence or suggestions. The implementation should not recommend related products or provide search suggestions.
+2.	Project B – Post-Feature (Enhanced Search Implementation)
+A project that contains the enhanced version of the search feature, which intelligently recommends related products based on user queries and provides search suggestions. The new implementation improves the search functionality by incorporating smarter search algorithms, such as relevance scoring, fuzzy matching, and related product suggestions.
+Each project must include its own source code, environment setup, automated tests, and execution scripts.
+All files must be generated, stored locally, and fully reproducible.
